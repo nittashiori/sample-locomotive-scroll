@@ -1,29 +1,51 @@
 html {
     font-size: 62.5%;
+    font-family: Inter, YuGothic, "Yu Gothic Medium", "Yu Gothic", Meiryo, sans-serif;
+    color: #222;
 }
 
 body {
     font-size: 1.6rem;
+    background: #d4c9c9;
 }
 
 .l-container {
     max-width: 1000px;
     width: 100%;
-    margin: 40px auto;
+    margin: 0 auto;
     padding: 0 40px;
 }
 
-h1 {
-    font-size: 6rem;
+.title {
+    margin: 100px 0;
+    font-size: 12rem;
     font-family: $font-neue-montreal;
+    opacity:0;
+    transition: opacity 4s;
+    span {
+        display: inline-block;
+    }
 }
 
-h2 {
-    font-size: 4rem;
+.sub-title {
+    font-size: 6rem;
     font-family: $font-neue-montreal;
+    color: #fff;
+}
+
+.appear{
+    opacity:1;
 }
 
 p {
     margin: 20px;
     line-height: 1.8;
+}
+
+.icon {
+    font-size: 6rem;
+}
+
+.section {
+    margin: 80px 0;
 }
